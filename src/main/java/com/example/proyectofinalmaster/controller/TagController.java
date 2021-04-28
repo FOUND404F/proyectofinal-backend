@@ -26,7 +26,7 @@ public class TagController {
      * @return The call from TagService
      */
     @GetMapping("/tags")
-    public ResponseEntity<List<Tags>> findAllTags(@RequestParam(name = "size", required = false, defaultValue = "10") int size,
+    public ResponseEntity<List<Tags>> findAllTags(@RequestParam(name = "size", required = false, defaultValue = "30") int size,
                                                   @RequestParam(name = "pagination", required = false, defaultValue = "0") int pagination,
                                                   @RequestParam(name = "name", required = false) String name) {
 
