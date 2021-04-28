@@ -110,3 +110,4 @@ public class SkilledDAOImpl implements SkilledDAO {
                 return manager.createQuery(criteriaSkilled2).getSingleResult();
             }
         }
+        

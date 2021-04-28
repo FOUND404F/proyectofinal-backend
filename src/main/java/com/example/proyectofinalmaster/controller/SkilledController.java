@@ -26,7 +26,7 @@ public class SkilledController {
      * @return ResponseEntity
      */
     @GetMapping("/skilled")
-    public ResponseEntity<List<Skilled>> findAllSkilled (@RequestParam(name = "size", required = false, defaultValue = "10") int size,
+    public ResponseEntity<List<Skilled>> findAllSkilled (@RequestParam(name = "size", required = false, defaultValue = "30") int size,
                                                         @RequestParam(name = "pagination", required = false, defaultValue = "0") int pagination,
                                                         @RequestParam(name = "name", required = false) String name,
                                                         @RequestParam(name = "modality", required = false) String modality,
